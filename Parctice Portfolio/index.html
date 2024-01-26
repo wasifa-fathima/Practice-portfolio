@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wasifa Fathima Portfolio</title>
+  </head>
+
+  <body>
+    <header class="flex">
+      <nav class="navbar flex">
+        <a class="logo" href="#home">Portfolio</a>
+          <ul class="nav-menu">
+            <li class="disapear nav-item">
+              <a href="#home">Home</a></li>
+            <hr class="underline hide">
+            <li class="disapear nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <hr class="underline hide">
+            <li class="disapear nav-item">
+              <a href="#aboutme" class="nav-link">About</a>
+            </li>
+            <hr class="underline hide">
+            <li class="disapear nav-item">
+              <a href="#getintouch" class="nav-link">Contact</a>
+            </li>
+            <hr class="underline hide">
+            <hr class="underline hide">
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+      </nav>
+    </header>
+              <!-- main section -->
+    <main>
+              <!-- intro section -->
+      <section id="home" class="intropage flex flex-column">
+        <div class="intro">
+          <h1>Hey There. <br /> I'm Wasifa</h1>
+          <h2 class="flex">Front-end Developer</h2>
+          <p>
+            I'm a passionate self-taught front-end web developer. My journey into the world of coding began with a burning curiosity and a love for creating things that are not just visually appealing but also functional and user-friendly.
+        </p>
+          </p>
+        </div>
+            <!-- social elements -->
+        <div class="socialintro">
+          <ul class="flex">
+           </ul>
+        </div>
+      </section>
+           <!-- intro section ended -->
+          <!-- headline section -->
+      <section id="projects" class="work flex flex-column">
+        <div id="work-title">
+          <h3 class="work-heading">My Recent Works
+          </h3>
+            <div class="line">
+            </div>
+        </div>
+          <div class="work-card">
+            <div id="work-image">
+            </div>
+           <div class="work-subtitle">
+            Netflix Clone
+              <p class="work-details">
+                This project 
+              </p>
+              <div class="flex
+                    flex-start">
+               <p class="flex-item">css
+               </p>
+               <p class="flex-item">html
+               </p>
+               <p class="flex-item">JavaScript
+               </p>
+              </div>
+              <button class="headline-btn work-button">
+              See Project
+              </button>
+           </div>
+        </div>
+     </section>
+
+    <!-- Section Projects -->
+
+     <div id="projects-container"       
+      class="projects">
+      </div>
+      
+      <!-- section popup -->
+      <div class="seePopup" id="seePopup">
+      </div>
+
+      <!-- section aboutme -->
+      <section id="aboutme" class=" flex flex-column">
+          <h2 id="me">About me</h2>
+          <p>
+            I'm a passionate self-taught front-end web developer. My journey into the world of coding began with a burning curiosity and a love for creating things that are not just visually appealing but also functional and user-friendly.
+          </p>
+          <button class="resumebtn">
+            My Resume
+          </button>
+          <div class="aboutme-border"><a href="#Resume"></a></div>
+      </section>
+      <section id="languages" class="flex flex-column">
+        <div class="thumbnail">
+          <div class="rectangle"></div>
+           <h2 class="headings">Languages</h2>
+            <ul class="marginlistitems flex flex-column">
+              <li class="listitems">Javascript</li>
+              <li class="listitems">Html</li>
+              <li class="listitems">Css</li>
+            </ul>
+        </div>
+          <div class="thumbnail">
+            <div class="square"></div>
+             <h2 class="headings">Frameworks</h2>
+              <ul class="marginlistitems flex flex-column">
+               <li class="listitems">Bootstrap</li>
+            </ul>
+          </div>
+          <div class="thumbnail">
+            <div class="circle"></div>
+            <h2 class="headings">Skills</h2>
+            <ul class="marginlistitems flex flex-column">
+              <li class="listitems">Github</li>
+              <li class="listitems">Codepen</li>
+              <li class="listitems">Terminal</li>
+            </ul>
+          </div>
+        </ul>
+      </section>
+
+      <form id="getintouch-form"action="https://formspree.io/f/xoqzdnpa" method="POST">
+        <section id="getintouch" class="border">
+          <h2 class="intouch">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch
+          </h2>
+          <div class="getintouch-form">
+            <input id="name"
+            class="input border"
+            type="text"
+            placeholder="Full name"
+            maxlength="30"
+            required
+            />
+            <input id="email"
+            class="input border"
+            type="email"
+            placeholder="Email address"
+            required
+            />
+            <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Hello Wasifa. I would like to get in touch with you..." required></textarea>
+            <h4 id="error-msg" class="error"></h4>
+            <div class="centerbtn">
+            <button id="getintouch-btn" type="submit" class="getintouchbtn">
+              Get in touch
+            </button>
+          </div>
+        </div>
+        </section>
+      </form>
+    </main>
+
+    <footer>
+      <div class="sociallinks">
+        <ul class="footercenter flex">
+          <li>
+            <a href="https://github.com/wasifa-fathima" target="_blank" rel="noopener">
+              <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" class="social" alt="githublink" />
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/wasifa-fathima"
+              target="_blank"rel="noopener">
+              <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="social" alt="linkedinlink" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/wasifa02"
+              target="_blank"
+              rel="noopener">
+              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png" class="social" alt="twitterlink" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:wasifafathima26@gmail.com" target="_blank" rel="noopener">
+              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png" class="social" alt="gmaillink" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
